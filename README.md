@@ -1,3 +1,16 @@
+```
+% tree --gitignore .
+.
+├── Dockerfile
+├── README.md
+├── helm
+│   ├── Chart.yaml
+│   └── templates
+│       └── deployment.yml
+├── main.py
+└── repo.yml
+```
+
 # dockerビルド
 
 ```
@@ -37,3 +50,4 @@ simple-app-deployment-75d7b88c6c-2c5k2   0/1     Completed   1 (3s ago)   3s
 $ kubectl logs simple-app-deployment-75d7b88c6c-2c5k2 
 version: 0.0.1
 ```
+
